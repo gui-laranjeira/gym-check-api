@@ -1,11 +1,26 @@
-# App
+# Gym Check API
 
-Gympass Mockado
+An API that simulates GymPass functionalities for study purposes, guided by rocketseat Node.js course
+
+## technology used
+
+- Node.js
+- Docker
+- PostgreSQL
+- Fastify
+- Vitest
+- Prisma
+
+
+## Design Patterns 
+- Repository pattern
+- Factory Pattern
+- In memory test database pattern 
+
 
 # Setup
 
 #### Execute
-
 ```sh
 # run database container
 $ docker compose up -d
@@ -15,7 +30,6 @@ $ npm run dev
 ```
 
 #### Run tests
-
 
 ```sh
 # run tests
@@ -28,7 +42,7 @@ $ npm run test:watch
 $ npm run test:compose
 ```
 
-
+# Definition of Done (DoD)
 ## RF (Requisitos Funcionais)
 
 - [x] Deve ser possível se cadastrar;
@@ -59,17 +73,3 @@ $ npm run test:compose
 - [ ] O usuário deve ser identificado por um JWT (Json Web Token);
 
 
-## Techs
-
-- Node.js
-- Fastify
-- PostgreSQL
-- Docker
-- Vitest
-- Prisma
-
-
-## Design Patterns 
-- Repository pattern
-- Factory Pattern
-- In memory test database pattern 
